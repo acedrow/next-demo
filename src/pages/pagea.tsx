@@ -33,7 +33,7 @@ const HomePage = () => {
         type="text"
         value={inputValue}
         onChange={(event) => setInputValue(event?.target?.value)}
-        style={{minWidth:'20rem'}}
+        style={{ minWidth: '20rem' }}
       ></input>
       <button onClick={() => handleSubmit()}>Submit</button>
       <h3>Average number of words: {averageWords}</h3>

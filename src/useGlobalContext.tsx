@@ -18,7 +18,7 @@ const defaultState: Context = {
 
 const GlobalContext = React.createContext<Context>(defaultState)
 
-export const useGlobalContext = () =>{
+export const useGlobalContext = () => {
   const globalContext = useContext(GlobalContext)
   return globalContext
 }
